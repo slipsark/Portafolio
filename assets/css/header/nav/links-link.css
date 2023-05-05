@@ -1,0 +1,9 @@
+.menu__link {
+  font-family: var(--contenido);
+  font-size: 1.2rem;
+
+  color: var(--color-texto);
+}
+.menu__link:hover {
+  color: var(--color-hover-rsponsive);
+}

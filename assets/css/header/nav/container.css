@@ -1,0 +1,13 @@
+.container__head {
+  display: none;
+}
+.show {
+  position: absolute;
+  transform: translateY(20%);
+  display: block;
+
+  background-color: var(--background-head);
+  width: 100%;
+
+  border-top: 1px solid white;
+}

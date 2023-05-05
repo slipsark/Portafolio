@@ -1,0 +1,4 @@
+.menu__hamburguer {
+  filter: invert(1);
+  cursor: pointer;
+}

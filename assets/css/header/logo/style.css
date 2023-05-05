@@ -1,0 +1,9 @@
+.head__logo{
+  color: var(--color-logo);
+
+  font-family: var(--titulo);
+  font-size: 1.9rem;
+
+  cursor: pointer;
+  
+}
