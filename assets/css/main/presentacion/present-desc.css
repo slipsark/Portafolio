@@ -1,0 +1,5 @@
+.presentacion__descripcion {
+  font-family: var(--contenido);
+  font-size: 1rem;
+  color: var(--color-texto);
+}

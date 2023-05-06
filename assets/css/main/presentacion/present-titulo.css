@@ -1,0 +1,7 @@
+.presentacion__titulo {
+  font-family: var(--titulo);
+  font-size: 1.4rem;
+
+  color: var(--color-texto);
+  margin-bottom: 5rem;
+}
