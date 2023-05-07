@@ -1,0 +1,7 @@
+.sobre__descripcion-titulo {
+  font-family: var(--contenido);
+  font-size: var(--size-descrip-sec);
+
+  color: var(--color-texto);
+  padding: .5rem 0;
+}

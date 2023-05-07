@@ -1,0 +1,8 @@
+.sobre__titulo {
+  font-family: var(--titulo);
+  font-size: var(--size-titulo-sec);
+  font-weight: bold;
+  padding: 0 .9rem;
+
+  color: var(--color-texto);
+}

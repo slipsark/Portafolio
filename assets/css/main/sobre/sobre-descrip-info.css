@@ -1,0 +1,5 @@
+.sobre__descripcion-info {
+  font-family: var(--contenido);
+  font-size: var(--size-descrip-sec);
+  color: var(--color-texto);
+}

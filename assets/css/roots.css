@@ -5,9 +5,11 @@
   --contenido: 'Changa', sans-serif;
   --background-head: rgb(60, 59, 59);
   --color-logo:white; 
-  --color-texto: white;
+  --color-texto: rgb(214, 208, 208);
   --color-hover-rsponsive: rgb(179, 59, 59);
   --background-main:rgb(38, 33, 33);
+  --size-titulo-sec: 1.8rem;
+  --size-descrip-sec: 1.4rem;
 }
 * {
   box-sizing: border-box;
