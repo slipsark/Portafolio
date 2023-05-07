@@ -1,0 +1,7 @@
+.skills__titulo {
+  font-family: var(--titulo);
+  font-size: var(--size-titulo-sec);
+  color: var(--color-texto);
+
+  padding: .8rem 0;
+}

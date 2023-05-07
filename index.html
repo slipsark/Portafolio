@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="./assets/css/main/sobre/sobre-descrip.css">
   <link rel="stylesheet" href="./assets/css/main/sobre/sobre-descrip-titulo.css">
   <link rel="stylesheet" href="./assets/css/main/sobre/sobre-descrip-info.css">
+  <link rel="stylesheet" href="./assets/css/main/kills/skills.css">
+  <link rel="stylesheet" href="./assets/css/main/kills/skills-titulo.css">
+  <link rel="stylesheet" href="./assets/css/main/kills/skills-container.css">
   <title>Página de presentación</title>
 </head>
 <body>
@@ -33,7 +36,7 @@
     <nav class="container__head">
       <ul class="menu__head">
         <li class="menu_links"><a href="#sobre-mi" class="menu__link">Sobre mi</a></li>
-        <li class="menu_links"><a href="#" class="menu__link">Skills</a></li>
+        <li class="menu_links"><a href="#skills-sec" class="menu__link">Skills</a></li>
         <li class="menu_links"><a href="#" class="menu__link">Formación</a></li>
         <li class="menu_links"><a href="#" class="menu__link">Proyectos</a></li>
         <li class="menu_links"><a href="#" class="menu__link">Contacto</a></li>
@@ -54,7 +57,7 @@
       </div>
     </section>
 
-    <section class="sobre" id="sobre-mi">
+    <section class="sobre size-vh" id="sobre-mi">
       <h3 class="sobre__titulo">Sobre mi</h3>
       <article class="sobre__descripcion">
         <span class="sobre__descripcion-titulo">Edwin</span>
@@ -69,6 +72,33 @@
         </span>
         <div class="sobre__descripcion-img"></div>
       </article>
+    </section>
+
+    <section class="skills " id="skills-sec">
+      <h3 class="skills__titulo">Skills</h3>
+
+      <div class="skills__container">
+        <div class="card__skills card">
+          <img src="./assets/img/skills-img/html.png" alt="Html" class="card__skill-img card-img">
+          <span class="skill__descripcion card-descripcion">Html</span>
+        </div>
+        <div class="card__skills card">
+          <img src="./assets/img/skills-img/css.png" alt="Css" class="card__skill-img card-img">
+          <span class="skill__descripcion card-descripcion">Css</span>
+        </div>
+        <div class="card__skills card">
+          <img src="./assets/img/skills-img/js.png" alt="JavaScript" class="card__skill-img card-img">
+          <span class="skill__descripcion card-descripcion">JavaScript</span>
+        </div>
+        <div class="card__skills card">
+          <img src="./assets/img/skills-img/react.png" alt="React" class="card__skill-img card-img">
+          <span class="skill__descripcion card-descripcion">React</span>
+        </div>
+        <div class="card__skills card">
+          <img src="./assets/img/skills-img/git.png" alt="Git" class="card__skill-img card-img">
+          <span class="skill__descripcion card-descripcion">Git</span>
+        </div>
+      </div>
     </section>
   </main>
 </body>
