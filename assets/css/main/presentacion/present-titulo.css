@@ -1,7 +1,6 @@
 .presentacion__titulo {
   font-family: var(--titulo);
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: var(--size-titulo-sec);
 
   color: var(--color-texto);
 }

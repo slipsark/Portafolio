@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="./assets/css/main/kills/skills.css">
   <link rel="stylesheet" href="./assets/css/main/kills/skills-titulo.css">
   <link rel="stylesheet" href="./assets/css/main/kills/skills-container.css">
+  <link rel="stylesheet" href="./assets/css/main/formacion/formacion.css">
+  <link rel="stylesheet" href="./assets/css/main/formacion/formacion-img.css">
   <title>Página de presentación</title>
 </head>
 <body>
@@ -37,7 +39,7 @@
       <ul class="menu__head">
         <li class="menu_links"><a href="#sobre-mi" class="menu__link">Sobre mi</a></li>
         <li class="menu_links"><a href="#skills-sec" class="menu__link">Skills</a></li>
-        <li class="menu_links"><a href="#" class="menu__link">Formación</a></li>
+        <li class="menu_links"><a href="#formacion-sec" class="menu__link">Formación</a></li>
         <li class="menu_links"><a href="#" class="menu__link">Proyectos</a></li>
         <li class="menu_links"><a href="#" class="menu__link">Contacto</a></li>
       </ul>
@@ -58,7 +60,7 @@
     </section>
 
     <section class="sobre size-vh" id="sobre-mi">
-      <h3 class="sobre__titulo">Sobre mi</h3>
+      <h3 class="sobre__titulo section-titulo">Sobre mi</h3>
       <article class="sobre__descripcion">
         <span class="sobre__descripcion-titulo">Edwin</span>
         <span class="sobre__descripcion-info">
@@ -74,8 +76,8 @@
       </article>
     </section>
 
-    <section class="skills " id="skills-sec">
-      <h3 class="skills__titulo">Skills</h3>
+    <section class="skills container" id="skills-sec">
+      <h3 class="skills__titulo section-titulo">Skills</h3>
 
       <div class="skills__container">
         <div class="card__skills card">
@@ -98,6 +100,25 @@
           <img src="./assets/img/skills-img/git.png" alt="Git" class="card__skill-img card-img">
           <span class="skill__descripcion card-descripcion">Git</span>
         </div>
+      </div>
+    </section>
+
+    <section class="formacion container" id="formacion-sec">
+      <h3 class="formacion__titulo section-titulo">Formación</h3>
+      <div class="formacion__container card">
+        <img src="./assets/img/formacion-img/alura.png" alt="Alura" class="formacion__img">
+        <span class="formacion__descripcion card-descripcion">Alura - Font End</span>
+        <span class="formacion__fecha card-descripcion">2022 - 2023</span>
+      </div>
+      <div class="formacion__container card">
+        <img src="./assets/img/formacion-img/alura.png" alt="Alura" class="formacion__img">
+        <span class="formacion__descripcion card-descripcion">Alura - Soft skills</span>
+        <span class="formacion__fecha card-descripcion">2022 - 2023</span>
+      </div>
+      <div class="formacion__container card">
+        <img src="./assets/img/formacion-img/open-bootcamp.png" alt="Open bootcamp" class="formacion__img">
+        <span class="formacion__descripcion card-descripcion">Open Bootcamp</span>
+        <span class="formacion__fecha card-descripcion">2022 - presente</span>
       </div>
     </section>
   </main>
