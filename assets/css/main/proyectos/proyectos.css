@@ -1,0 +1,6 @@
+.proyectos {
+  gap: 1.5rem;
+}
+.proyecto__container {
+  cursor: default;
+}

@@ -10,6 +10,7 @@
   --background-main:rgb(38, 33, 33);
   --size-titulo-sec: 1.8rem;
   --size-descrip-sec: 1.4rem;
+  --clr:#39FF14;
 }
 * {
   box-sizing: border-box;
