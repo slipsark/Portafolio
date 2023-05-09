@@ -3,14 +3,13 @@
 }
 .show {
   position: absolute;
-  transform: translateY(10.5%);
+  transform: translateY(2.4rem);
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-color: var(--background-head);
+  background-color: rgba(0, 0, 0, 0.69);
   width: 100%;
-  height: 50%;
 
   border-top: 1px solid white;
 }
