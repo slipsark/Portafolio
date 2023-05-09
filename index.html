@@ -31,6 +31,9 @@
   <link rel="stylesheet" href="./assets/css/main/formacion/formacion-img.css">
   <link rel="stylesheet" href="./assets/css/main/proyectos/proyectos.css">
   <link rel="stylesheet" href="./assets/css/main/proyectos/proyecto-img.css">
+  <link rel="stylesheet" href="./assets/css/main/contacto/contacto.css">
+  <link rel="stylesheet" href="./assets/css/main/contacto/contacto-descrip.css">
+  <link rel="stylesheet" href="./assets/css/main/contacto/contacto-form.css">
   <title>Página de presentación</title>
 </head>
 <body>
@@ -43,7 +46,7 @@
         <li class="menu_links"><a href="#skills-sec" class="menu__link">Skills</a></li>
         <li class="menu_links"><a href="#formacion-sec" class="menu__link">Formación</a></li>
         <li class="menu_links"><a href="#proyectos-sec" class="menu__link">Proyectos</a></li>
-        <li class="menu_links"><a href="#" class="menu__link">Contacto</a></li>
+        <li class="menu_links"><a href="#contacto-sec" class="menu__link">Contacto</a></li>
       </ul>
     </nav>
     <img src="./assets/img/hambueguer.png" alt="Menu" class="menu__hamburguer">
@@ -142,6 +145,34 @@
           <a href="#" class="btn btn-second">Ver demo</a>
         </div>
       </div>
+    </section>
+
+    <section class="contacto container" id="contacto-sec">
+      <h3 class="section-titulo">Contacto</h3>
+        <p class="contacto__descripcion">
+          ¿Quieres contactarme?
+          <br>
+          Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+        </p>
+        <form class="container contacto__form card" action="https://formsubmit.co/edwin_paul01@hotmail.com" method="POST">
+          <div class="container-input">
+            <input class="form__input" type="text" name="nombre" required>
+            <label class="form__label">Nombre</label>
+          </div>
+          <div class="container-input">
+            <input class="form__input" type="email" name="email" required>
+            <label class="form__label">Email</label>
+          </div>
+          <div class="container-input">
+            <input class="form__input" type="text" name="asunto" required>
+            <label class="form__label">Asunto</label>
+          </div>
+          
+          <label for="message" class="card-descripcion">Mensaje</label>
+          <textarea class="message" id="message" name="message" required></textarea>
+          
+          <button type="submit" class="btn-second btn btn-form" >Enviar</button>
+        </form>   
     </section>
   </main>
 </body>

@@ -1,0 +1,5 @@
+.contacto__descripcion {
+  font-family: var(--contenido);
+  font-size: 1.1rem;
+  color: var(--color-texto);
+}
