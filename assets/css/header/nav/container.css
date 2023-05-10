@@ -13,3 +13,8 @@
 
   border-top: 1px solid white;
 }
+@media (min-width: 1024px) {
+  .container__head {
+    display: flex;
+  }
+}

@@ -6,3 +6,11 @@
 
   padding: 1.5rem 0;
 }
+@media (min-width: 1024px) {
+  .menu__head {
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+  }
+}

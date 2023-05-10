@@ -2,3 +2,8 @@
   filter: invert(1);
   cursor: pointer;
 }
+@media (min-width: 1024px) {
+  .menu__hamburguer {
+    display: none;
+  }
+}

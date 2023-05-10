@@ -9,3 +9,8 @@
   flex-direction: column;
   gap: 2rem;
 }
+@media (min-width: 768px) {
+  .proyectos__container-cards{
+    padding: 2rem;
+  }
+}
