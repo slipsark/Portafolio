@@ -4,3 +4,19 @@
 .formacion__container {
   cursor: default;
 }
+
+.formacion__container-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding: 1.2rem 0;
+}
+
+@media (min-width: 768px) {
+  .formacion__container-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

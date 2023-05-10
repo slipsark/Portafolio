@@ -45,3 +45,14 @@
   color: black;
   font-weight: bold;
 }
+@media (min-width: 768px) {
+  .btn-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.3rem 0;
+  }
+  .btn {
+    padding: 1rem 3rem;
+    margin: 0;
+  }
+}

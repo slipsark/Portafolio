@@ -4,3 +4,8 @@
 .proyecto__container {
   cursor: default;
 }
+.proyectos__container-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -6,3 +6,12 @@
   gap: 1rem;
   width: 100%;
 }
+@media (min-width: 768px) {
+  .skills__container {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 1.5rem;
+  }
+}

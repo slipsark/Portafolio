@@ -70,3 +70,17 @@
 .btn-form:hover {
   color: var(--color-texto);
 }
+@media (min-width: 768px) {
+  .contacto__form {
+    min-width: 60%;
+  }
+  .container-input {
+    min-width: 80%;
+  }
+  .form__input {
+    width: 100%;
+  }
+  .btn-form {
+    width: 40%;
+  }
+}
