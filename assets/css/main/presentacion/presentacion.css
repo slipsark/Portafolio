@@ -3,12 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 
-  background: url(../../../img/presentacion.jpg);
+  background-image: url(../../../img/present2.jpg);
   background-size: cover;
   background-position: center;
+  background-color: rgba(255, 255, 255, 0.8);
 
-  gap: 2rem;
-  height: calc(100vh - 3.6rem);
+  gap: 2.5rem;
+  height: calc(100vh - 3.7rem);
 }

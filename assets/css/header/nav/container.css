@@ -3,7 +3,7 @@
 }
 .show {
   position: absolute;
-  transform: translateY(2.4rem);
+  transform: translateY(2.6rem);
   display: flex;
   align-items: center;
   justify-content: center;
